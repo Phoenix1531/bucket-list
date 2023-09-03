@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@300;400&family=Phudu:wght@300;400&family=Poppins&family=Roboto:ital,wght@0,300;0,400;1,400&family=Titillium+Web:ital,wght@1,200;1,300&display=swap');
+
+body {
+    background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 33%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    font-size: 21px;
+}
+
+h1 {
+    color: white;
+}
+
+#input-field {
+    width: 350px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: large;
+}
+
+.btn-submit {
+    position: relative;
+    right: 40px;
+    background-color: #F7BE3B;
+    width: 90px;
+    height: 47px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn-reset {
+    background-color: #F7BE3B;
+    width: 250px;
+    height: 47px;
+    border-radius: 20px;
+    font-size: large;
+    border: none;
+    margin-top: 60px;
+}
+
+.list-container {
+    width: max-content;
+    margin: auto;
+    position: relative;
+    margin-top: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 33px;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+}
